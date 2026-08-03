@@ -1,0 +1,17 @@
+{
+  "query": {
+    "_id": "645213ae73fe6f46956768e3"
+  },
+  "fields": ["61e58901849b5a01f7c6900a"],
+  "email_template": {
+    "subject": "Update your custom fields",
+    "content": "Dear ${candidate_name}, Please click here <a href='${take_action_link}'>to update your custom fields</a>, <br /> ${company_name} team",
+    "email_enabled": true,
+    "email_variables": [
+      "company_name",
+      "primary_color",
+      "take_action_link",
+      "candidate_name"
+    ]
+  }
+}
