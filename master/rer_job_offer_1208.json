@@ -1,5 +1,5 @@
 {
   "_id": {
-    $in: ["6a5f480ffd1df377376fe389", "6a71d9b9f07a4ae24a97fee9"]
+    "$in": ["6a5f480ffd1df377376fe389", "6a71d9b9f07a4ae24a97fee9"]
   }
 }
