@@ -1,0 +1,28 @@
+{
+  "limit": 5000,
+  "query": {
+    "email": { "$in": ["lara_sk5@maildrop.cc", "lara_upload2@maildrop.cc"] }
+  },
+  "fields": ["673efddfe218713fe6ac7020"],
+  "email_template": {
+    "subject": "Complete Your Profile - ${company_name} Career Website",
+"content": "<p>Dear <strong>${candidate_name},</strong><br><br></p><p>To be able to use the ${company_name} career website and apply for jobs, we need you to complete your profile, including your name in Arabic.</p><br /><p>Please complete your profile by clicking on the Complete Your Profile button below, and make sure the information you provide is accurate and complete.</p><p>We wish you all the best!</p><br /><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>Complete Your Profile</a><br /><br /><br /><table><tbody><tr><td style='padding-bottom: 0px; word-break: break-word;' align='left'><div style='font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 24px; text-align: left; color: #777777;'><div>Best Regards,</div><div><strong>${company_name}</strong></div></div></td></tr></tbody></table>",
+"translations": {
+    "AR": {
+        "subject": "استكمال ملفك الشخصي",
+        "content": "<p>عزيزي/عزيزتي ${candidate_name}</p><p>&nbsp;</p><p>للاستمرار في استخدام بوابة التوظيف الخاصة بـ${company_name} والتقديم على الفرص الوظيفية، يرجى استكمال ملفك الشخصي، بما في ذلك <strong>إدخال اسمك باللغة العربية</strong>، والتأكد من أن <strong>سيرتك الذاتية محدثة</strong>.</p><p><span lang='ar-SA' data-olk-copy-source='MessageBody'>اضغط على زر&nbsp;</span><strong><span lang='ar-SA'>استكمال الملف الشخصي</span></strong><span lang='ar-SA'>&nbsp;أدناه لمراجعة بياناتك وتحديثها. يرجى التأكد من أن جميع المعلومات التي تقدمها، بما في ذلك سيرتك الذاتية، صحيحة وكاملة ومحدثة</span><span dir='ltr'>.</span></p><p><span lang='ar-SA'>نتمنى لك كل التوفيق في مسيرتك المهنية</span><span dir='ltr'>.</span></p><p><br><strong><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>استكمال الملف الشخصي</a> </strong><br><br><br></p><table><tbody><tr><td style='padding-bottom: 0px; word-break: break-word;' align='left'><div style='font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 24px; text-align: left; color: #777777;'><div>مع أطيب التحيات،</div><div><strong>${company_name}</strong></div></div></td></tr></tbody></table>"
+    },
+    "EN": {
+        "subject": "Complete Your Profile - ${company_name} Career Website",
+        "content": "<p>Dear <strong>${candidate_name},</strong><br><br></p><p>To be able to use the ${company_name} career website and apply for jobs, we need you to complete your profile, including your name in Arabic.</p><br /><p>Please complete your profile by clicking on the Complete Your Profile button below, and make sure the information you provide is accurate and complete.</p><p>We wish you all the best!</p><br /><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>Complete Your Profile</a><br /><br /><br /><table><tbody><tr><td style='padding-bottom: 0px; word-break: break-word;' align='left'><div style='font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 24px; text-align: left; color: #777777;'><div>Best Regards,</div><div><strong>${company_name}</strong></div></div></td></tr></tbody></table>"
+    }
+},
+    "email_enabled": true,
+    "email_variables": [
+      "company_name",
+      "primary_color",
+      "take_action_link",
+      "candidate_name"
+    ]
+  }
+}
