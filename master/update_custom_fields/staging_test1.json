@@ -1,0 +1,20 @@
+{
+"limit": 5000,
+"query": {
+    "email": "larissa77j@gmail.com"
+},
+"fields": [
+"6714f71337b6fc60b6dad7bd"
+],
+"email_template": {
+"subject": "Update your custom fields",
+"content": "Dear ${candidate_name}, Please click here <a href='${take_action_link}'>to update your custom fields</a>, <br /> ${company_name} team",
+"email_enabled": true,
+"email_variables": [
+"company_name",
+"primary_color",
+"take_action_link",
+"candidate_name"
+]
+}
+}
