@@ -1,0 +1,18 @@
+{
+  "limit": 5000,
+  "query": {
+    "email": { "$in": ["faisalab1777@hotmail.com"] }
+  },
+  "fields": ["6a3cdb0e83b63a034f611304"],
+  "email_template": {
+    "subject": "Complete Your Profile - ${company_name} Career Website",
+    "content": "<p>Dear <strong>${candidate_name},</strong><br><br></p><p>To continue using the SAMI-AEC Careers Portal and apply for job opportunities, please complete your profile and ensure that all the information you provide including your <strong>name in Arabic</strong> and your CV is up to date. <br /> Click the <strong>Complete Your Profile</strong> button below to review and update your profile</p><br><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>Complete Your Profile</a><br /><br /><br /><table><tbody><tr><td style='padding-bottom: 0px; word-break: break-word;' align='left'><div style='font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 24px; text-align: left; color: #777777;'><div>Best Regards,</div><div><strong>${company_name}</strong></div></div></td></tr></tbody></table><div style='direction: rtl'><p>عزيزي <strong>${candidate_name}</strong>،</p><p>للاستمرار في استخدام بوابة التوظيف الخاصة بشركة الإلكترونيات المتقدمة والتقديم على الفرص الوظيفية، يرجى استكمال ملفك الشخصي والتأكد من أن جميع المعلومات التي تقدمها صحيحة ومحدثة بما في ذلك إدخال <strong>اسمك باللغة العربية</strong> و <strong>سيرتك الذاتية</strong>.</p><p>اضغط على زر <strong>استكمال الملف الشخصي</strong> أدناه لمراجعة بياناتك وتحديثها.</p><br><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>استكمال الملف الشخصي</a><br /><br /><br /><p>مع أطيب التحيات،<br><strong>${company_name}</strong></p></div>",
+    "email_enabled": true,
+    "email_variables": [
+      "company_name",
+      "primary_color",
+      "take_action_link",
+      "candidate_name"
+    ]
+  }
+}
