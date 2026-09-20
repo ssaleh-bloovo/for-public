@@ -1,0 +1,18 @@
+{
+  "limit": 5000,
+  "query": {
+    "email": { "$in": ["anoudaalnasser@gmail.com"] }
+  },
+  "fields": ["61e58901849b5a01f7c68fb8", "63cfe3fd5cf72c010e395278", "661e9a14fa52ddf4e9431180", "61e58901849b5a01f7c68fb9", "6a3cdb0e83b63a034f611304", "6388975936b83d60939c8512"],
+  "email_template": {
+    "subject": "Alinma Capital - Missing Information",
+    "content": "<p>Dear <strong>Candidate,</strong><br><br></p><p>Thank you for your application. We noticed that some required information in your profile is incomplete.</p><p>Please use the link provided to complete the missing information in your profile at your earliest convenience.</p><br><a style='background: ${primary_color}; color: white; font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 500; line-height: 120%; margin: 0; text-decoration: none; text-transform: none; padding: 10px;' href='${take_action_link}' target='_blank' rel='noopener'>Complete Your Profile</a><br /><br /><br /><table><tbody><tr><td style='padding-bottom: 0px;word-break: break-word;' align='left'><div style='font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 300; line-height: 24px; text-align: left; color: #777777;'><div>Best Regards,</div><div><strong>${company_name}</strong></div></div></td></tr></tbody></table>",
+    "email_enabled": true,
+    "email_variables": [
+      "company_name",
+      "primary_color",
+      "take_action_link",
+      "candidate_name"
+    ]
+  }
+}
