@@ -1,7 +1,7 @@
 {
   "limit": 5000,
   "query": {
-    "email": { "$in": ["anoudaalnasser@gmail.com", "test@mail.com"] }
+    "email": { "$in": ["anoudaalnasser@gmail.com"] }
   },
   "fields": ["68b03b5afde6cd05d0c613ec", "68b03b5afde6cd05d0c6141c", "6a9fbd95716b7c658974681e"],
   "email_template": {
